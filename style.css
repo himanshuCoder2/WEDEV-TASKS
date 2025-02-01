@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:rgba(250, 235, 215, 0.514);
+    /* position: fixed; */
+    top: 10px;
+}
+
+
+ul{
+    list-style:none;
+    display: flex;
+    gap: 20px;
+
+}
+li{
+    align-items: center;
+}
+
+ul li{
+    cursor: pointer;
+    align-items: center;
+}
+
+.sea{
+    height: 20px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 15px;
+    
+}
+.lists{
+    width: 200px;
+    display: inline;
+}
+
+.poster{
+    
+}
