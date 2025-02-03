@@ -4,16 +4,39 @@
     box-sizing: border-box;
 }
 
-.nav{
-    display:flex;
+.navbar{
+    height: 15vh;
+    width: 100%;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background-color:rgba(250, 235, 215, 0.514);
+    background-color:rgba(158, 96, 15, 0.514);
     /* position: fixed; */
-    top: 10px;
+    
+}
+.logo{
+    padding-top:5px;
+    padding-left: 5px;
+    
+    /* margin-top:20px; */
+}
+.logo img{
+    size: 5px;
 }
 
+.logo p{
+    margin-top: 4px;
+    font-family: sans-serif;
+}
+
+button{
+    width:50px;
+    margin-right: 20px;
+    background-color:burlywood;
+    font-weight: 400;
+    text-align: center;
+    color:cadetblue;
+}
 
 ul{
     list-style:none;
@@ -30,19 +53,125 @@ ul li{
     align-items: center;
 }
 
-.sea{
+.category{
+    display: inline;
+}
+
+.search{
     height: 20px;
     width: 300px;
     margin-top: 30px;
+    margin-bottom: 30px;
     margin-left: 40px;
     font-size: 15px;
+    border: none;
+    outline: none;
+    display: inline;
     
 }
+.search input{
+    width: 300px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.search ::placeholder{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+
 .lists{
     width: 200px;
     display: inline;
 }
 
-.poster{
+.poster img{
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.311);
+    height:300px;
+    margin-top: 30px;
+    margin-left: 59px;
+    width: 87%;
+    border-radius: 10px;
+}
+
+.main-container{
+     display: flex;
+    flex-wrap: wrap; 
+} 
+.cards{
+    
+    width: 210px;
+    display: flex;
+    height: 229px;
+    margin-top: 20px;
+   margin-left: 30px;
+   margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px 1px rgba(0, 0, 0, 0.311);
+    border: 1px solid red; 
+    background-size: cover;   
+    
+}
+ .cards image{
+    /* height:;
+    width: ; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1px 1px 1px 1px;
+
+}
+.cards i{
+    background-size: cover;
+}
+.card1{
+    margin-left: 70px;
+}
+
+
+.big-cards{
+    padding-top: 20px;
+}
+
+.big-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    width: 260px;
+    display: flex;
+    height: 329px;
+    margin-top: 20px;
+   margin-left: 40px;
+   margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px 1px rgba(0, 0, 0, 0.311);
+    border: 1px solid red; 
+    background-size: cover; 
+}
+
+
+/* 1st section */
+
+.container{
+    height:100vh;
+    width: 100%;
+   
+}
+
+.about{
+    margin-top: 50px;
+    margin-left:50px;
+    height: 70vh;
+    width: 90%;
+    border-radius: 2px 2px 2px 2px rgba(0, 0, 0, 0.356);
+    border: 1px solid red;
+}
+.content{
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
     
 }
